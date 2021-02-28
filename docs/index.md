@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## DASHBOARD
+
 
 You can use the [editor on GitHub](https://github.com/AaditeeDP/Data_Analytics_D2C/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
