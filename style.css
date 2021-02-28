@@ -5,12 +5,18 @@
 }
 .heading {
   background-color: #111;
+  z-index: 4;
+  width: 100%;
+  height: 50px;
 }
 .heading h1 {
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
   text-align: center;
   color: azure;
+  z-index: 4;
+  width: 100%;
+  height: 50px;
 }
 
 .nav {
@@ -20,12 +26,17 @@
   flex-direction: row;
   justify-content: flex-end;
   background-color: rgb(31, 31, 31);
+  /* top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 3; */
 }
 .nav-items {
   margin-left: 10px;
   margin-right: 10px;
   color: aliceblue;
   text-decoration: none;
+  position: relative;
 }
 
 .sidenavbar {
@@ -48,6 +59,26 @@
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+.class1,
+.class2,
+.class3,
+.class4,
+.class5 {
+  display: flex;
+  flex-direction: column;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  margin-left: 180px;
+  position: relative;
+  text-overflow: clip;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
 }
 .question1 {
   display: flex;
