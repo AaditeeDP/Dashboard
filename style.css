@@ -60,6 +60,18 @@
   position: relative;
   margin-left: 180px;
 }
+.question4 {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  margin-left: 180px;
+}
+.question5 {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  margin-left: 180px;
+}
 .question2 {
   display: flex;
   margin-top: 100px;
@@ -68,7 +80,9 @@
 }
 .Q1G1,
 .Q2G1,
-.Q3G1 {
+.Q3G1,
+.Q4G1,
+.Q5G1 {
   z-index: 2;
   width: 250px;
   height: 250px;
@@ -81,22 +95,34 @@
   margin-left: 25px;
 }
 .Q1G2,
-.Q3G2 {
+.Q3G2,
+.Q4G2,
+.Q5G2 {
   z-index: 2;
   width: 250px;
   height: 250px;
   margin-left: 25px;
 }
 .Q1G3,
-.Q3G3 {
+.Q3G3,
+.Q4G3,
+.Q5G3 {
   z-index: 2;
   width: 250px;
   height: 250px;
   margin: 10px, auto, 10px, 5px;
   margin-left: 25px;
 }
+.Q4G4,
+.Q4G3,
+.Q4G2,
+.Q4G1 {
+  width: 350px !important;
+}
 .Q1G4,
-.Q3G4 {
+.Q3G4,
+.Q4G4,
+.Q5G4 {
   z-index: 2;
   width: 250px;
   height: 250px;
