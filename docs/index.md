@@ -1,7 +1,9 @@
 ## DASHBOARD
 
 
-You can use the [editor on GitHub](https://github.com/AaditeeDP/Data_Analytics_D2C/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+The Vagabonds team has processed, analyzed and visualized the data according to the given case study in the pratyaksh Competition.
+Language used : python.
+Libraries : matplotlib, seaborn, numpy, pandas, plotly express.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
