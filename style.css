@@ -24,11 +24,10 @@
 .nav-items {
   margin-left: 10px;
   margin-right: 10px;
-}
-a {
-  text-decoration: none;
   color: aliceblue;
+  text-decoration: none;
 }
+
 .sidenavbar {
   height: 100%;
   width: 30;
@@ -45,7 +44,7 @@ a {
 .sidenavbar a {
   padding: 5px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1rem;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -55,32 +54,85 @@ a {
   margin-left: 180px;
   position: relative;
 }
-.Q1G1 {
+.question3 {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  margin-left: 180px;
+}
+.question2 {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  margin-left: 180px;
+}
+.Q1G1,
+.Q2G1,
+.Q3G1 {
   z-index: 2;
-  width: 200px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
+  margin-left: 10px;
+}
+.Q2G2 {
+  z-index: 2;
+  width: 700px;
+  height: 250px;
   margin-left: 25px;
 }
-.Q1G2 {
+.Q1G2,
+.Q3G2 {
   z-index: 2;
-  width: 200px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   margin-left: 25px;
-  margin-right: 25px;
 }
-.Q1G3 {
+.Q1G3,
+.Q3G3 {
   z-index: 2;
-  width: 200px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   margin: 10px, auto, 10px, 5px;
   margin-left: 25px;
+}
+.Q1G4,
+.Q3G4 {
+  z-index: 2;
+  width: 250px;
+  height: 250px;
+  margin: 10px, auto, 10px, 5px;
+  margin-left: 20px;
   margin-right: 25px;
 }
-.Q1G4 {
-  z-index: 2;
+.aboutus {
+  margin: auto;
+}
+.cards {
+  display: flex;
+  margin-left: 200px;
+}
+
+.card-anushka,
+.card-aaditee {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 350px;
+}
+.img-container {
+  border-radius: 25px;
+  padding: 20px;
   width: 200px;
-  height: 180px;
-  margin: 10px, auto, 10px, 5px;
-  margin-left: 25px;
-  margin-right: 25px;
+  height: 150px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  margin-top: 30px;
 }
